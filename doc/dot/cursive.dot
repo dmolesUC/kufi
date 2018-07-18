@@ -1,0 +1,8 @@
+digraph {
+    node [shape = box, fontname = helvetica]
+    edge [arrowhead = diamond, arrowsize = 0.5]
+
+    Workspace -> Collection -> Object -> FileSet -> File
+    Object -> Object
+    Object -> File
+}
