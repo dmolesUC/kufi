@@ -1,6 +1,6 @@
 digraph {
     graph [outputorder = edgesfirst, nodesep = 1]
-    node [shape = box, fontname = helvetica, fillcolor = grey95, style = filled]
+    node [shape = box, fillcolor = grey95, style = filled]
 
     Store -> "Workspace 1" -> "Collection 1" -> "Object 1" -> "FileSet 1" -> "File 1"
     "FileSet 1" -> "File 2"
