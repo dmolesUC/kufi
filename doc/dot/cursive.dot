@@ -5,6 +5,7 @@ digraph {
 
     Store -> Workspace
     Workspace -> Collection -> Object -> FileSet -> File
+    Collection -> Collection
     Object -> Object
     Object -> File
 }
