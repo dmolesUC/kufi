@@ -1,7 +1,9 @@
 digraph {
-    node [shape = box, fontname = helvetica]
-    edge [arrowhead = diamond, arrowsize = 0.5]
+    graph [outputorder = edgesfirst, nodesep = 1]
+    node [shape = box, fontname = helvetica, fillcolor = grey95, style = filled]
+    edge [arrowhead = crow]
 
+    Store -> Workspace
     Workspace -> Collection -> Object -> FileSet -> File
     Object -> Object
     Object -> File
