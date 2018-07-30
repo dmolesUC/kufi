@@ -1,6 +1,9 @@
 ############################################################
 # Custom ignores
 
+#### github-markdown-preview previews
+**/*.md.html
+
 #### Redundant IDEA files (generated from Gradle) ####
 
 **/*.iml

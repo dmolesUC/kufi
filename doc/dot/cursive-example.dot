@@ -1,0 +1,21 @@
+digraph {
+    graph [outputorder = edgesfirst, nodesep = 1]
+    node [shape = box, fontname = helvetica, fillcolor = grey95, style = filled]
+
+    Store -> "Workspace 1" -> "Collection 1" -> "Object 1" -> "File 1"
+    "Object 1" -> "File 2"
+    "Collection 1" -> "Object 2" -> "FileSet 1"
+    "FileSet 1" -> "File 3"
+    "FileSet 1" -> "File 4"
+    "Object 2" -> "File 5"
+    "Workspace 1" -> "Collection 2" -> "Object 3" -> "File 6"
+    "Object 3" -> "File 7"
+    "Collection 2" -> "Collection 3"
+    "Collection 3" -> "Object 4" -> "Object 5"
+    "Object 4" -> "File 8"
+    "Object 5" -> "File 9"
+    "Object 5" -> "File 10"
+
+    Store -> "Workspace 2" -> "Collection 4" -> "Object 6" -> "File 11"
+    "Object 6" -> "File 12"
+}
